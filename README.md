@@ -22,11 +22,16 @@ Most updates don't require touching HTML:
 ## Running locally
 
 ```bash
-bundle install
-bundle exec jekyll serve
+gem install jekyll jekyll-sitemap jekyll-seo-tag
+jekyll serve
 ```
 
 Then open http://localhost:4000.
+
+Note: there's no `Gemfile` in this repo on purpose. GitHub Pages' build
+container already ships a matching `github-pages` gem environment; adding a
+`Gemfile` makes it run `bundle install` against that frozen environment,
+which is a common source of version-conflict build failures.
 
 ## Deploying on GitHub Pages
 
