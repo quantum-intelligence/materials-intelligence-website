@@ -1,0 +1,31 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__col">
+      <span class="brand brand--footer">Materials<em>Intelligence</em></span>
+      <p>{{ site.department }}<br>{{ site.institution }}</p>
+      <p>{{ site.address }}</p>
+      <p><a href="tel:{{ site.phone_tel }}">{{ site.phone }}</a></p>
+    </div>
+
+    <nav class="site-footer__col" aria-label="Footer navigation">
+      <span class="site-footer__heading">Site</span>
+      <ul>
+        {% for item in site.nav %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="site-footer__col">
+      <span class="site-footer__heading">Connect</span>
+      <ul class="social-links">
+        <li><a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="{{ site.twitter }}" target="_blank" rel="noopener">X / Twitter</a></li>
+        <li><a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap site-footer__bottom">
+    <p>&copy; {{ site.time | date: '%Y' }} Rhone Research Group. All rights reserved.</p>
+  </div>
+</footer>

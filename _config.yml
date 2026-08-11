@@ -1,0 +1,49 @@
+title: Materials Intelligence
+tagline: Rhone Research Group — Rensselaer Polytechnic Institute
+description: >-
+  The Rhone Research Group at Rensselaer Polytechnic Institute combines
+  artificial intelligence, quantum computing, and first-principles
+  calculations to discover and understand quantum materials.
+url: "https://materials-intelligence.com"
+baseurl: ""
+
+institution: Rensselaer Polytechnic Institute
+department: Department of Physics, Applied Physics and Astronomy
+address: "110 8th Street, Troy, New York 12180, United States"
+phone: "(518) 276-8655"
+phone_tel: "5182768655"
+linkedin: "https://www.linkedin.com/in/trevor-david-rhone-965ba9b/"
+twitter: "https://x.com/quantumcanvas"
+scholar: "https://scholar.google.com/citations?user=&hl=en"
+github: "https://github.com/"
+
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Members
+    url: /members/
+  - title: Publications
+    url: /publications/
+  - title: Courses
+    url: /courses/
+  - title: Resources
+    url: /resources/
+  - title: News
+    url: /news/
+  - title: Contact
+    url: /contact/
+
+markdown: kramdown
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

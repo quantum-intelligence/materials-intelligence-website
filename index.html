@@ -1,0 +1,164 @@
+---
+layout: default
+title: Home
+description: >-
+  The Rhone Research Group at RPI combines artificial intelligence, quantum
+  computing, and first-principles calculations to discover and understand
+  quantum materials.
+body_class: home
+---
+
+<section class="hero">
+  <div class="hero__orbits" aria-hidden="true">
+    <svg viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice">
+      <g transform="translate(900,180)" stroke="#14b8a6" stroke-opacity="0.35" fill="none">
+        <ellipse rx="240" ry="90" stroke-width="1"/>
+        <ellipse rx="240" ry="90" stroke-width="1" transform="rotate(60)"/>
+        <ellipse rx="240" ry="90" stroke-width="1" transform="rotate(120)"/>
+        <circle r="5" fill="#14b8a6" stroke="none"/>
+      </g>
+      <g transform="translate(150,520)" stroke="#6366f1" stroke-opacity="0.3" fill="none">
+        <ellipse rx="160" ry="60" stroke-width="1"/>
+        <ellipse rx="160" ry="60" stroke-width="1" transform="rotate(60)"/>
+        <ellipse rx="160" ry="60" stroke-width="1" transform="rotate(120)"/>
+        <circle r="4" fill="#6366f1" stroke="none"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="wrap hero__inner">
+    <div>
+      <span class="hero__eyebrow">Rhone Research Group &middot; RPI</span>
+      <h1>Discovering quantum materials with <span class="accent">artificial intelligence</span></h1>
+      <p class="hero__lead">
+        We combine first-principles calculations, quantum computing, and
+        machine learning to explore the spin and charge behavior of electron
+        systems in reduced dimensions &mdash; and to find new two-dimensional
+        materials with useful, exotic properties.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Explore our research</a>
+        <a class="btn btn--ghost" href="{{ '/members/' | relative_url }}">Meet the group</a>
+      </div>
+      <p class="hero__haiku">
+        Atoms dance in code,<br>
+        whispers of deep minds reveal,<br>
+        new worlds crystallize.
+      </p>
+    </div>
+
+    <div class="hero__panel">
+      <h3>At a glance</h3>
+      <div class="hero__stats">
+        <div class="hero__stat"><strong>{{ site.data.publications | size }}+</strong><span>Publications</span></div>
+        <div class="hero__stat"><strong>10<sup>21</sup></strong><span>Candidate 2D materials &amp; heterostructures</span></div>
+        <div class="hero__stat"><strong>127-qubit</strong><span>Quantum computer access</span></div>
+        <div class="hero__stat"><strong>NSF CAREER</strong><span>Award, 2021</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <span class="eyebrow">What we study</span>
+      <h2>Research focus areas</h2>
+      <p>Six interconnected threads link theory, computation, AI, and experiment.</p>
+    </div>
+
+    <div class="grid grid--3">
+      <div class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Emergent phenomena</h3>
+        <p>How collections of particles exhibit properties beyond their individual components &mdash; probed with first-principles calculations, quantum computing, light scattering, and AI.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M12 4v16" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Quantum materials</h3>
+        <p>Correlated quantum systems, with particular attention to the magnetic properties of layered, van der Waals materials.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="2"/><path d="M9 9h6v6H9z" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Quantum computing</h3>
+        <p>Using a 127-qubit quantum computer to simulate materials properties that remain difficult for classical computation.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19l6-7 4 4 6-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>AI for materials science</h3>
+        <p>Machine learning applied to discover patterns in materials data and predict novel materials with desirable properties.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>High-throughput DFT</h3>
+        <p>Density functional theory simulations at scale, building materials-property databases for screening and model training.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.9 7.1 18.2l.9-5.5-4-3.9 5.5-.8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Experimental validation</h3>
+        <p>Techniques such as Kerr spectroscopy validate theoretical predictions at atomic scales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="grid grid--2" style="align-items:start;">
+      <div>
+        <span class="eyebrow">Latest publications</span>
+        <h2>Recent work</h2>
+        <ul class="pub-list">
+          {% for pub in site.data.publications limit:4 %}
+          <li class="pub-item">
+            <span class="pub-item__year">{{ pub.year }}</span>
+            <div>
+              <p class="pub-item__title">{{ pub.title }}</p>
+              <p class="pub-item__meta">{{ pub.authors }} &middot; {{ pub.journal }}</p>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="mt-lg"><a class="btn btn--outline" href="{{ '/publications/' | relative_url }}">View all publications</a></p>
+      </div>
+
+      <div>
+        <span class="eyebrow">Latest news</span>
+        <h2>Recognition &amp; updates</h2>
+        <ul class="pub-list">
+          {% for item in site.data.news limit:4 %}
+          <li class="pub-item">
+            <span class="pub-item__year">{{ item.year }}</span>
+            <div>
+              <p class="pub-item__title">{{ item.title }}</p>
+              <p class="pub-item__meta">{{ item.body }}</p>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="mt-lg"><a class="btn btn--outline" href="{{ '/news/' | relative_url }}">View all news</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section text-center">
+  <div class="wrap">
+    <span class="eyebrow">Get in touch</span>
+    <h2>Interested in joining the group?</h2>
+    <p style="max-width:56ch;margin:0 auto 28px;">We're always glad to hear from prospective students and collaborators working at the intersection of materials science, AI, and quantum computing.</p>
+    <a class="btn btn--primary" href="{{ '/contact/' | relative_url }}">Contact us</a>
+  </div>
+</section>

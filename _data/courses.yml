@@ -1,0 +1,11 @@
+- code: PHYS 2210
+  title: Quantum Physics I
+  description: >-
+    Foundational course covering the principles of quantum mechanics,
+    including wave-particle duality, the Schrödinger equation, and
+    quantum states.
+- code: PHYS 4810
+  title: Computational Physics
+  description: >-
+    Numerical and computational methods applied to physical problems,
+    including simulation, data analysis, and scientific programming.

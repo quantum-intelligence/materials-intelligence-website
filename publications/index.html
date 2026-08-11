@@ -1,0 +1,32 @@
+---
+layout: default
+title: Publications
+description: Peer-reviewed publications from the Rhone Research Group.
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Publications</span>
+    <h1>Publications</h1>
+    <p>Selected peer-reviewed work on data-driven and AI-guided studies of quantum and van der Waals materials.</p>
+    <a class="btn btn--ghost mt-lg" href="{{ site.scholar }}" target="_blank" rel="noopener">View full list on Google Scholar &rarr;</a>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <ul class="pub-list">
+      {% assign pubs = site.data.publications | sort: 'year' | reverse %}
+      {% for pub in pubs %}
+        <li class="pub-item">
+          <span class="pub-item__year">{{ pub.year }}</span>
+          <div>
+            <p class="pub-item__title">{{ pub.title }}</p>
+            <p class="pub-item__meta">{{ pub.authors }} &middot; {{ pub.journal }}</p>
+            {% if pub.link %}<a class="pub-item__link" href="{{ pub.link }}" target="_blank" rel="noopener">Read paper &rarr;</a>{% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

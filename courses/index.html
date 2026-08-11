@@ -1,0 +1,27 @@
+---
+layout: default
+title: Courses
+description: Courses taught by Professor Rhone at RPI.
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Teaching</span>
+    <h1>Courses</h1>
+    <p>Courses taught by Professor Rhone in the Department of Physics, Applied Physics and Astronomy.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid--3">
+      {% for course in site.data.courses %}
+        <div class="card course-card">
+          <span class="course-card__code">{{ course.code }}</span>
+          <h3>{{ course.title }}</h3>
+          <p>{{ course.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

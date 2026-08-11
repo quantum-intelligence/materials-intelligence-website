@@ -1,0 +1,75 @@
+- title: Materials-Intelligence Tutorials
+  items:
+    - label: "Harvard IACS Seminar 2022"
+      url: "https://www.youtube.com/"
+    - label: "Introduction to materials research using machine learning"
+      url: "https://www.youtube.com/"
+
+- title: Self-Learning — Courses & Textbooks
+  items:
+    - label: "Machine Learning by Andrew Ng (Coursera)"
+      url: "https://www.coursera.org/learn/machine-learning"
+    - label: "Data Science by Johns Hopkins University (Coursera)"
+      url: "https://www.coursera.org/specializations/jhu-data-science"
+    - label: "An Introduction to Statistical Learning — Hastie et al."
+      url: "https://www.statlearning.com/"
+    - label: "Pattern Recognition and Machine Learning — Bishop"
+      url: "https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/"
+    - label: "Deep Learning — Goodfellow, Bengio, Courville"
+      url: "https://www.deeplearningbook.org/"
+    - label: "A beginner's guide to using data science for physicists (SlideShare)"
+      url: "https://www.slideshare.net/"
+    - label: "Citrine Newsletter"
+      url: "https://citrine.io/"
+    - label: "TensorFlow tutorial documentation"
+      url: "https://www.tensorflow.org/tutorials"
+    - label: "Linear Algebra using Python — Dr. Steven L. Richardson"
+      url: "https://www.youtube.com/"
+
+- title: Workshops
+  items:
+    - label: "IPAM, UCLA"
+      url: "https://www.ipam.ucla.edu/"
+    - label: "IACS ComputeFest (Harvard)"
+      url: "https://iacs.seas.harvard.edu/"
+    - label: "Citrine Webinars"
+      url: "https://citrine.io/"
+    - label: "NIST Resource for Materials Informatics (REMI)"
+      url: "https://www.nist.gov/"
+
+- title: Data Availability
+  items:
+    - label: "Kaggle datasets"
+      url: "https://www.kaggle.com/datasets"
+    - label: "Google Dataset Search"
+      url: "https://datasetsearch.research.google.com/"
+    - label: "Materials Project"
+      url: "https://materialsproject.org/"
+    - label: "Citrine datasets platform"
+      url: "https://citrine.io/"
+    - label: "Materials Cloud"
+      url: "https://www.materialscloud.org/"
+    - label: "NIMS MatNavi"
+      url: "https://mits.nims.go.jp/"
+    - label: "AFLOW"
+      url: "https://aflowlib.org/"
+    - label: "Computational 2D Materials Database (C2DB)"
+      url: "https://cmr.fysik.dtu.dk/c2db/c2db.html"
+
+- title: Data Science Tools
+  tags:
+    - "Python"
+    - "Julia"
+    - "R"
+    - "Jupyter / JupyterHub"
+    - "Google Colab"
+    - "Pandas"
+    - "NumPy"
+    - "Matplotlib"
+    - "Plotly"
+    - "Scikit-learn"
+    - "TensorFlow"
+    - "PyTorch"
+    - "Keras"
+    - "GitHub"
+    - "Streamlit"

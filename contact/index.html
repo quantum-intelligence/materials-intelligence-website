@@ -1,0 +1,70 @@
+---
+layout: default
+title: Contact
+description: Get in touch with the Rhone Research Group.
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1>Get in touch</h1>
+    <p>Questions about the group, collaborations, or joining as a student? Reach out below.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="contact-detail">
+        <span class="contact-detail__icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 21s7-7.2 7-12a7 7 0 10-14 0c0 4.8 7 12 7 12z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2"/></svg>
+        </span>
+        <div>
+          <strong>{{ site.department }}</strong><br>
+          {{ site.institution }}<br>
+          {{ site.address }}
+        </div>
+      </div>
+      <div class="contact-detail">
+        <span class="contact-detail__icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 5h4l2 5-2.5 1.5a11 11 0 005 5L14 14l5 2v4a2 2 0 01-2 2A16 16 0 014 7a2 2 0 012-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </span>
+        <div><a href="tel:{{ site.phone_tel }}">{{ site.phone }}</a></div>
+      </div>
+      <div class="contact-detail">
+        <span class="contact-detail__icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="2"/></svg>
+        </span>
+        <div>
+          <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a> &middot;
+          <a href="{{ site.twitter }}" target="_blank" rel="noopener">X / Twitter</a> &middot;
+          <a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!--
+        This form posts to Formspree (https://formspree.io) since GitHub
+        Pages only serves static files and can't run a form backend itself.
+        Create a free Formspree form and replace YOUR_FORM_ID below with
+        your real endpoint ID before this goes live.
+      -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>

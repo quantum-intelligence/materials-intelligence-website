@@ -1,0 +1,57 @@
+---
+layout: default
+title: Members
+description: Faculty, postdocs, students, and alumni of the Rhone Research Group.
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Group</span>
+    <h1>Members</h1>
+    <p>The people behind Materials Intelligence &mdash; faculty, postdoctoral fellows, graduate and undergraduate researchers, and alumni.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    {% for group in site.data.members %}
+      <div class="member-group">
+        <h2 class="member-group__title">{{ group.title }}</h2>
+
+        {% if group.key == "recent_grads" or group.key == "alumni" %}
+          <ul class="alumni-list">
+            {% for person in group.people %}
+              <li><strong>{{ person.name }}</strong> &mdash; {{ person.note }}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <div class="grid grid--people">
+            {% for person in group.people %}
+              <div class="person">
+                <div class="person__avatar">
+                  {% if person.photo %}
+                    <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
+                  {% else %}
+                    {{ person.initials }}
+                  {% endif %}
+                </div>
+                <div>
+                  <h3 class="person__name">{{ person.name }}</h3>
+                  <span class="person__role">{{ person.role }}</span>
+                  <p class="person__bio">{{ person.bio }}</p>
+                  {% if person.links %}
+                    <div class="person__links">
+                      {% if person.links.linkedin %}<a href="{{ person.links.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+                      {% if person.links.scholar %}<a href="{{ person.links.scholar }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+                      {% if person.links.twitter %}<a href="{{ person.links.twitter }}" target="_blank" rel="noopener">X / Twitter</a>{% endif %}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,134 @@
+- key: faculty
+  title: Faculty
+  people:
+    - name: Trevor David Rhone
+      role: Principal Investigator, Professor
+      initials: TR
+      bio: >-
+        Liberal arts education from Macalester College and a PhD from Columbia
+        University studying quantum electron systems. Research experience at
+        NTT Basic Research Labs and the National Institute for Materials
+        Science in Japan, followed by a transition into materials informatics
+        and machine learning for 2D magnetic materials discovery at Harvard.
+      links:
+        linkedin: "https://www.linkedin.com/in/trevor-david-rhone-965ba9b/"
+        twitter: "https://x.com/quantumcanvas"
+
+- key: postdocs
+  title: Postdoctoral Fellows
+  people:
+    - name: Romakanta Bhattarai
+      role: Postdoctoral Fellow
+      initials: RB
+      bio: >-
+        PhD from the University of Memphis; MS from Tribhuvan University,
+        Nepal. Focuses on two-dimensional magnetic and topological quantum
+        materials using first-principles calculations combined with machine
+        learning tools.
+
+- key: grad
+  title: Graduate Students
+  people:
+    - name: Peter Minch
+      role: PhD Student
+      initials: PM
+      bio: >-
+        Bachelor's degree from Cornell (2020). Research on ab initio
+        calculations and data-driven analyses for 2D materials.
+    - name: Kai Wagoner-Oshima
+      role: PhD Student
+      initials: KW
+      bio: >-
+        BBA in Statistics/Quantitative Modeling (Baruch College) and BA in
+        Applied Physics (Hunter College). Analyzes 2D materials through
+        computational methods.
+    - name: Antara Chakraborty
+      role: PhD Student
+      initials: AC
+      bio: PhD student in physics.
+    - name: Taiwo Akande
+      role: PhD Student
+      initials: TA
+      bio: >-
+        Background in physics; focuses on machine learning to advance
+        materials science in the context of 2D magnetic materials.
+      links:
+        scholar: "https://scholar.google.com/citations?hl=en&user=SjeOkiUAAAAJ"
+        linkedin: "https://www.linkedin.com/in/akande-taiwo-hassan-75325a199/"
+
+- key: undergrad
+  title: Undergraduate Students
+  people:
+    - name: Mags Martins
+      role: Undergraduate Researcher
+      initials: MM
+      bio: Second-year physics major interested in quantum computing and IP law.
+    - name: Neel Iyer
+      role: Undergraduate Researcher
+      initials: NI
+      bio: >-
+        Junior, Applied Physics major, joined Fall 2023. Interested in wave
+        propagation through nonuniform media.
+    - name: Dylan Sheils
+      role: Undergraduate Researcher
+      initials: DS
+      bio: Senior, passionate about quantum computing.
+    - name: Yang Qiu
+      role: Undergraduate Researcher
+      initials: YQ
+      bio: >-
+        Junior, Applied Physics major, researches machine learning for
+        quantum information science materials.
+
+- key: recent_grads
+  title: Recent Graduates
+  people:
+    - name: Qihan Fu
+      note: >-
+        Senior undergrad, physics major — used machine learning to study and
+        predict formation energy and magnetic moment of two-dimensional
+        magnetic materials.
+    - name: Haralambos Gavras
+      note: Second-year undergrad, physics and math majors.
+
+- key: alumni
+  title: Past Team Members
+  people:
+    - name: Yuhong Liu
+      note: >-
+        M.S. student; applied physics and computer science degree (RPI,
+        2020) — neural networks for 2D magnetic properties.
+    - name: Naman Parikh
+      note: >-
+        High school student (North Penn High School) — machine learning for
+        thermodynamic properties; now at Carnegie Mellon.
+    - name: Vaishnavi Neema
+      note: >-
+        Graduate student, IT with data science focus — electronics and
+        communications engineering background.
+    - name: Jinzhe Zhang
+      note: >-
+        Visiting researcher, INSA Lyon graduate — PhD candidate, University
+        of Tokyo, under Prof. Koji Tsuda.
+    - name: Alana Commons
+      note: First-year undergrad, physics major — chemical properties and magnetism.
+    - name: Joshua Quinton
+      note: >-
+        PhD student, physics (University of Illinois, 2019) — ab-initio
+        materials analysis.
+    - name: David Medlock
+      note: >-
+        Undergrad physics/mathematics, graduated December 2021 — formation
+        energy predictions.
+    - name: Anindita Ghosh
+      note: >-
+        PhD student, Electrical, Computer, and Systems Engineering — B.Tech
+        and M.Tech from Indian universities.
+    - name: Alvaro Olivero
+      note: Undergrad physics major.
+    - name: Ainsley Filkins
+      note: Undergrad physics major.
+    - name: Johari Dramiga
+      note: REU fellow.
+    - name: Alex Golub
+      note: REU fellow.

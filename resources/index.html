@@ -1,0 +1,37 @@
+---
+layout: default
+title: Resources
+description: Curated tutorials, courses, datasets, and tools for materials informatics.
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Resources</span>
+    <h1>Learning resources</h1>
+    <p>A curated set of free tutorials, courses, datasets, and tools for getting started in materials informatics and machine learning.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    {% for block in site.data.resources %}
+      <div class="resource-block">
+        <h3>{{ block.title }}</h3>
+        {% if block.items %}
+          <ul>
+            {% for item in block.items %}
+              <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.label }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if block.tags %}
+          <div class="resource-tags">
+            {% for tag in block.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

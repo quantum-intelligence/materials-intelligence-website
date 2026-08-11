@@ -1,0 +1,30 @@
+---
+layout: default
+title: News
+description: Awards, highlights, and media coverage for the Rhone Research Group.
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">News</span>
+    <h1>News &amp; recognition</h1>
+    <p>Awards, science highlights, and media coverage from the group.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="timeline">
+      {% for item in site.data.news %}
+        <div class="timeline-item">
+          <div class="timeline-item__year">{{ item.year }}</div>
+          <div class="timeline-item__card">
+            <span class="timeline-item__tag">{{ item.tag }}</span>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.body }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

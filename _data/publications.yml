@@ -1,0 +1,48 @@
+- year: 2025
+  title: High-throughput screening of altermagnetic materials
+  authors: Bhattarai, Minch, Rhone
+  journal: "Phys. Rev. Mater. 9(6):64403"
+- year: 2025
+  title: Data-Driven Studies of Two-Dimensional Materials and Their Nonlinear Optical Properties
+  authors: Wagoner-Oshima, Bhattarai, Terrones, Rhone
+  journal: "ACS Appl. Mater. Interfaces"
+- year: 2024
+  title: Predicting magnetic properties of van der Waals magnets using graph neural networks
+  authors: Minch, Bhattarai, Choudhary, Rhone
+  journal: "Phys. Rev. Mater. 8(11):114002"
+- year: 2024
+  title: Strain-induced topological phase transition in ferromagnetic Janus monolayer MnSbBiS2Te2
+  authors: Bhattarai, Minch, Liang, Zhang, Rhone
+  journal: "Physical Chemistry Chemical Physics"
+- year: 2023
+  title: Data-driven study of magnetic anisotropy in transition metal dichalcogenide monolayers
+  authors: Minch, Bhattarai, Rhone
+  journal: "Solid State Commun. 371:115248"
+- year: 2023
+  title: Artificial intelligence guided studies of van der Waals magnets
+  authors: Rhone et al.
+  journal: "Advanced Theory and Simulation 202300019"
+- year: 2023
+  title: Machine Learning-Aided Band Gap Engineering of BaZrS3 Chalcogenide Perovskite
+  authors: Sharma, Ward, Bhimani, et al.
+  journal: "ACS Appl. Mater. Interfaces"
+- year: 2023
+  title: Investigating magnetic van der Waals materials using data-driven approaches
+  authors: Bhattarai, Minch, Rhone
+  journal: "J. Mater. Chem. C"
+- year: 2021
+  title: Data-Driven Studies of the Magnetic Anisotropy of Two-Dimensional Magnetic Materials
+  authors: Xie, Tritsaris, Grånäs, Rhone
+  journal: "J. Phys. Chem. Lett."
+- year: 2020
+  title: Data-driven studies of magnetic two-dimensional materials
+  authors: Rhone et al.
+  journal: "Scientific Reports 10:15795"
+- year: 2019
+  title: Data-driven studies of li-ion-battery materials
+  authors: Kauwe, Rhone, Sparks
+  journal: "Crystals 9(1):54"
+- year: 2016
+  title: "COMBO: an efficient Bayesian optimization library for materials science"
+  authors: Ueno, Rhone, Hou, Mizoguchi, Tsuda
+  journal: "Materials Discovery 4:18-21"
