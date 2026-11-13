@@ -53,7 +53,13 @@
     - name: Yujie Sang
       role: Undergraduate Researcher
       initials: YS
-      bio: Seeking to leverage quantum computing to advance science research.
+      bio: >-
+        Yujie Sang is a physics researcher with a background in mathematics
+        and quantum computing. He holds bachelor’s degrees in Physics and
+        Mathematics and a master’s degree in Physics from Rensselaer
+        Polytechnic Institute. His research interests include quantum machine
+        learning, quantum algorithms, and quantum embedding methods for
+        many-body systems.
 
 - key: alumni
   title: Past Team Members
