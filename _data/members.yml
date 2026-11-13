@@ -13,6 +13,7 @@
       links:
         linkedin: "https://www.linkedin.com/in/trevor-david-rhone-965ba9b/"
         twitter: "https://x.com/quantumcanvas"
+        scholar: "https://scholar.google.com/citations?user=cnaBZDUAAAAJ&hl=en"
 
 - key: postdocs
   title: Postdoctoral Fellows
@@ -38,6 +39,7 @@
     - name: Kai Wagoner-Oshima
       role: PhD Student
       initials: KW
+      photo: /assets/img/members/kai-wagoner-oshima.jpg
       bio: >-
         BBA in Statistics/Quantitative Modeling (Baruch College) and BA in
         Applied Physics (Hunter College). Analyzes 2D materials through
@@ -49,6 +51,7 @@
     - name: Taiwo Akande
       role: PhD Student
       initials: TA
+      photo: /assets/img/members/taiwo-akande.jpg
       bio: >-
         Background in physics; focuses on machine learning to advance
         materials science in the context of 2D magnetic materials.
@@ -62,6 +65,7 @@
     - name: Mags Martins
       role: Undergraduate Researcher
       initials: MM
+      photo: /assets/img/members/mags-martins.jpg
       bio: Second-year physics major interested in quantum computing and IP law.
     - name: Neel Iyer
       role: Undergraduate Researcher
@@ -72,10 +76,12 @@
     - name: Dylan Sheils
       role: Undergraduate Researcher
       initials: DS
+      photo: /assets/img/members/dylan-sheils.jpg
       bio: Senior, passionate about quantum computing.
     - name: Yang Qiu
       role: Undergraduate Researcher
       initials: YQ
+      photo: /assets/img/members/yang-qiu.jpg
       bio: >-
         Junior, Applied Physics major, researches machine learning for
         quantum information science materials.
