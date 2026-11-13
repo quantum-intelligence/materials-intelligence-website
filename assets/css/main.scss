@@ -423,7 +423,7 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
 .timeline::before {
   content: "";
   position: absolute;
-  left: 100px;
+  left: 111px; /* centred in the gap between year column (100px) and card */
   top: 6px; bottom: 6px;
   width: 2px;
   background: var(--line);
@@ -446,13 +446,14 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   color: var(--indigo-strong);
   text-align: right;
   padding-top: 2px;
+  white-space: nowrap;
 }
 @media (max-width: 640px) { .timeline-item__year { text-align: left; } }
 
 .timeline-item::after {
   content: "";
   position: absolute;
-  left: 96px; top: 6px;
+  left: 107px; top: 6px;
   width: 10px; height: 10px;
   border-radius: 50%;
   background: var(--teal);
