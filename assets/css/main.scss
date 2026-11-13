@@ -541,6 +541,15 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   display: flex; align-items: center; justify-content: center;
 }
 
+.contact-email {
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 32px;
+}
+.contact-email h2 { margin-top: 0; }
+.contact-email__address { font-size: 1.15rem; font-weight: 600; overflow-wrap: anywhere; }
+
 .form-field { margin-bottom: 18px; }
 .form-field label { display: block; font-size: 0.9rem; font-weight: 600; margin-bottom: 6px; }
 .form-field input, .form-field textarea {

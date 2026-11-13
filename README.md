@@ -49,6 +49,6 @@ which is a common source of version-conflict build failures.
    - A `CNAME` record for `www` pointing to `<your-github-username>.github.io`
 4. Set the Cloudflare proxy status to **DNS only** (grey cloud) on those records until the GitHub Pages HTTPS certificate has provisioned, then you can switch to proxied (orange cloud) if desired.
 
-## Contact form
+## Contact
 
-The contact page posts to [Formspree](https://formspree.io) since GitHub Pages can't run a backend. Create a free Formspree form and replace `YOUR_FORM_ID` in `contact/index.html` with your real endpoint ID.
+The contact page shows the email address set as `email` in `_config.yml` (also used in the footer). There is no form, since GitHub Pages can't run a backend.
