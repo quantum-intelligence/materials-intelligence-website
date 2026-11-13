@@ -22,7 +22,11 @@
     - name: Hajime Suzuki
       role: Postdoctoral Researcher
       initials: HS
-      bio: Graduated from Hokkaido University; interested in machine learning for the design of novel 2D materials.
+      bio: >-
+        Graduated from Hokkaido University and combines theoretical
+        calculations with machine learning to design novel two-dimensional
+        materials. Research interests include two-dimensional magnetic
+        materials, interfaces with organic molecules, and energy materials.
 
 - key: grad
   title: Graduate Students
