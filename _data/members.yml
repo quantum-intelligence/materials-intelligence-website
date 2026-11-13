@@ -4,6 +4,7 @@
     - name: Trevor David Rhone
       role: Principal Investigator, Professor
       initials: TR
+      photo: /assets/img/members/trevor-rhone.jpg
       bio: >-
         Liberal arts education from Macalester College and a PhD from Columbia
         University studying quantum electron systems. Research experience at
@@ -49,17 +50,6 @@
       initials: YS
       bio: Seeking to leverage quantum computing to advance science research.
 
-- key: recent_grads
-  title: Recent Graduates
-  people:
-    - name: Qihan Fu
-      note: >-
-        Senior undergrad, physics major — used machine learning to study and
-        predict formation energy and magnetic moment of two-dimensional
-        magnetic materials.
-    - name: Haralambos Gavras
-      note: Second-year undergrad, physics and math majors.
-
 - key: alumni
   title: Past Team Members
   people:
@@ -85,6 +75,12 @@
       note: >-
         Undergrad, Applied Physics major — machine learning for quantum
         information science materials.
+    - name: Qihan Fu
+      note: >-
+        Undergrad physics major — machine learning to predict formation
+        energy and magnetic moment of two-dimensional magnetic materials.
+    - name: Haralambos Gavras
+      note: Undergrad, physics and math majors.
     - name: Yuhong Liu
       note: >-
         M.S. student; applied physics and computer science degree (RPI,
