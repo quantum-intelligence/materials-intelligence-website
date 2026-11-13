@@ -18,24 +18,13 @@
 - key: postdocs
   title: Postdoctoral Fellows
   people:
-    - name: Romakanta Bhattarai
-      role: Postdoctoral Fellow
-      initials: RB
-      bio: >-
-        PhD from the University of Memphis; MS from Tribhuvan University,
-        Nepal. Focuses on two-dimensional magnetic and topological quantum
-        materials using first-principles calculations combined with machine
-        learning tools.
+    - name: Hajime Suzuki
+      role: Postdoctoral Researcher
+      initials: HS
 
 - key: grad
   title: Graduate Students
   people:
-    - name: Peter Minch
-      role: PhD Student
-      initials: PM
-      bio: >-
-        Bachelor's degree from Cornell (2020). Research on ab initio
-        calculations and data-driven analyses for 2D materials.
     - name: Kai Wagoner-Oshima
       role: PhD Student
       initials: KW
@@ -44,47 +33,19 @@
         BBA in Statistics/Quantitative Modeling (Baruch College) and BA in
         Applied Physics (Hunter College). Analyzes 2D materials through
         computational methods.
-    - name: Antara Chakraborty
-      role: PhD Student
-      initials: AC
-      bio: PhD student in physics.
-    - name: Taiwo Akande
-      role: PhD Student
-      initials: TA
-      photo: /assets/img/members/taiwo-akande.jpg
-      bio: >-
-        Background in physics; focuses on machine learning to advance
-        materials science in the context of 2D magnetic materials.
-      links:
-        scholar: "https://scholar.google.com/citations?hl=en&user=SjeOkiUAAAAJ"
-        linkedin: "https://www.linkedin.com/in/akande-taiwo-hassan-75325a199/"
 
 - key: undergrad
   title: Undergraduate Students
   people:
-    - name: Mags Martins
-      role: Undergraduate Researcher
-      initials: MM
-      photo: /assets/img/members/mags-martins.jpg
-      bio: Second-year physics major interested in quantum computing and IP law.
     - name: Neel Iyer
       role: Undergraduate Researcher
       initials: NI
       bio: >-
         Junior, Applied Physics major, joined Fall 2023. Interested in wave
         propagation through nonuniform media.
-    - name: Dylan Sheils
+    - name: Yujie Sang
       role: Undergraduate Researcher
-      initials: DS
-      photo: /assets/img/members/dylan-sheils.jpg
-      bio: Senior, passionate about quantum computing.
-    - name: Yang Qiu
-      role: Undergraduate Researcher
-      initials: YQ
-      photo: /assets/img/members/yang-qiu.jpg
-      bio: >-
-        Junior, Applied Physics major, researches machine learning for
-        quantum information science materials.
+      initials: YS
 
 - key: recent_grads
   title: Recent Graduates
@@ -100,6 +61,28 @@
 - key: alumni
   title: Past Team Members
   people:
+    - name: Romakanta Bhattarai
+      note: >-
+        Postdoctoral fellow — two-dimensional magnetic and topological quantum
+        materials using first-principles calculations and machine learning.
+    - name: Peter Minch
+      note: >-
+        PhD student — ab initio calculations and data-driven analyses for 2D
+        materials.
+    - name: Antara Chakraborty
+      note: PhD student, physics.
+    - name: Taiwo Akande
+      note: >-
+        PhD student — machine learning for 2D magnetic materials.
+    - name: Mags Martins
+      note: Undergrad physics major — quantum computing.
+    - name: Dylan Sheils
+      note: >-
+        Undergrad researcher — quantum computing; Class of 1902 Research Prize.
+    - name: Yang Qiu
+      note: >-
+        Undergrad, Applied Physics major — machine learning for quantum
+        information science materials.
     - name: Yuhong Liu
       note: >-
         M.S. student; applied physics and computer science degree (RPI,
