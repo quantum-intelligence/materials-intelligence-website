@@ -21,6 +21,7 @@
     - name: Hajime Suzuki
       role: Postdoctoral Researcher
       initials: HS
+      bio: Graduated from Hokkaido University; interested in machine learning for the design of novel 2D materials.
 
 - key: grad
   title: Graduate Students
@@ -46,6 +47,7 @@
     - name: Yujie Sang
       role: Undergraduate Researcher
       initials: YS
+      bio: Seeking to leverage quantum computing to advance science research.
 
 - key: recent_grads
   title: Recent Graduates
